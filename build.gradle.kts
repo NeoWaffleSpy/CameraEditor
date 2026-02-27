@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.Varrell"
-version = "0.1.0"
+version = findProperty("plugin_version").toString()
 val javaVersion = 25
 
 repositories {
