@@ -1,22 +1,22 @@
-package com.Team_Berry.Slay;
+package com.Varrell.gamemodeAPI;
 
-import com.Team_Berry.Slay.Camera.CameraInitializer;
-import com.Team_Berry.Slay.Commands.Camera.CameraCommand;
-import com.Team_Berry.Slay.Commands.CameraGroup.CameraGroupCommand;
-import com.Team_Berry.Slay.Component.Data.PlayerPOVComponent;
-import com.Team_Berry.Slay.Component.System.PlayerPOVSystem;
+import com.Varrell.gamemodeAPI.Camera.CameraInitializer;
+import com.Varrell.gamemodeAPI.Commands.Camera.CameraCommand;
+import com.Varrell.gamemodeAPI.Commands.CameraGroup.CameraGroupCommand;
+import com.Varrell.gamemodeAPI.Component.Data.PlayerPOVComponent;
+import com.Varrell.gamemodeAPI.Component.System.PlayerPOVSystem;
 import com.hypixel.hytale.component.ComponentType;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 
-public class SlayTheTower extends JavaPlugin {
-    private static SlayTheTower instance;
+public class GamemodeAPI extends JavaPlugin {
+    private static GamemodeAPI instance;
     public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
     private ComponentType<EntityStore, PlayerPOVComponent> playerPOVComponentType;
 
-    public static SlayTheTower get() {
+    public static GamemodeAPI get() {
         return instance;
     }
 
@@ -24,7 +24,7 @@ public class SlayTheTower extends JavaPlugin {
         return this.playerPOVComponentType;
     }
 
-    public SlayTheTower(JavaPluginInit init) {
+    public GamemodeAPI(JavaPluginInit init) {
         super(init);
         instance = this;
         LOGGER.atInfo().log("Hello from %s version %s", this.getName(), this.getManifest().getVersion().toString());

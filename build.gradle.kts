@@ -3,7 +3,7 @@ plugins {
     id("hytale-mod") version "0.+"
 }
 
-group = findProperty("plugin_group").toString()
+group = "com.Varrell"
 version = findProperty("plugin_version").toString()
 val javaVersion = 25
 

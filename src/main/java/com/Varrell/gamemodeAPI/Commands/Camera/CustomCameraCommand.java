@@ -1,8 +1,8 @@
-package com.Team_Berry.Slay.Commands.Camera;
+package com.Varrell.gamemodeAPI.Commands.Camera;
 
-import com.Team_Berry.Slay.Camera.CameraInitializer;
-import com.Team_Berry.Slay.Camera.MouseControl.DefaultMouseControl;
-import com.Team_Berry.Slay.Component.Data.PlayerPOVComponent;
+import com.Varrell.gamemodeAPI.Camera.CameraInitializer;
+import com.Varrell.gamemodeAPI.Camera.MouseControl.DefaultMouseControl;
+import com.Varrell.gamemodeAPI.Component.Data.PlayerPOVComponent;
 import com.hypixel.hytale.math.vector.Vector2i;
 import com.hypixel.hytale.math.vector.Vector3d;
 import com.hypixel.hytale.component.ComponentAccessor;

@@ -1,7 +1,7 @@
-package com.Team_Berry.Slay.Component.Data;
+package com.Varrell.gamemodeAPI.Component.Data;
 
-import com.Team_Berry.Slay.Camera.MouseControl.AbstractMouseControl;
-import com.Team_Berry.Slay.SlayTheTower;
+import com.Varrell.gamemodeAPI.Camera.MouseControl.AbstractMouseControl;
+import com.Varrell.gamemodeAPI.GamemodeAPI;
 import com.hypixel.hytale.component.Component;
 import com.hypixel.hytale.component.ComponentType;
 import com.hypixel.hytale.protocol.ServerCameraSettings;
@@ -35,7 +35,7 @@ public class PlayerPOVComponent implements Component<EntityStore> {
     public AbstractMouseControl getMouseControl() { return mouseControl; }
 
     public static @NonNull ComponentType<EntityStore, PlayerPOVComponent> getComponentType() {
-        return SlayTheTower.get().getPlayerPOVComponentType();
+        return GamemodeAPI.get().getPlayerPOVComponentType();
     }
 
     @Override

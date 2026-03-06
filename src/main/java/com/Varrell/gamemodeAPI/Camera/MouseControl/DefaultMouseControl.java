@@ -1,4 +1,4 @@
-package com.Team_Berry.Slay.Camera.MouseControl;
+package com.Varrell.gamemodeAPI.Camera.MouseControl;
 
 import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.math.iterator.BlockIterator;

@@ -1,7 +1,9 @@
-package com.Team_Berry.Slay.Commands.Camera;
+package com.Varrell.gamemodeAPI.Commands.Camera;
 
-import com.Team_Berry.Slay.Camera.CameraInitializer;
-import com.Team_Berry.Slay.Component.Data.PlayerPOVComponent;
+import com.Varrell.gamemodeAPI.Camera.CameraInitializer;
+import com.Varrell.gamemodeAPI.Component.Data.PlayerPOVComponent;
+import com.hypixel.hytale.builtin.teleport.commands.teleport.TeleportCommand;
+import com.hypixel.hytale.component.CommandBuffer;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.server.core.Message;
