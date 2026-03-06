@@ -1,6 +1,5 @@
 package com.Varrell.gamemodeAPI.Component.Data;
 
-import com.Varrell.gamemodeAPI.Camera.CameraTemplates;
 import com.Varrell.gamemodeAPI.Camera.MouseControl.AbstractMouseControl;
 import com.Varrell.gamemodeAPI.GamemodeAPI;
 import com.hypixel.hytale.component.Component;

@@ -25,7 +25,7 @@ public class ResetCameraCommand extends AbstractPlayerCommand {
     protected void execute(@NonNull CommandContext commandContext, @NonNull Store<EntityStore> store, @NonNull Ref<EntityStore> ref, @NonNull PlayerRef playerRef, @NonNull World world) {
         PlayerPOVComponent pPOV = store.getComponent(ref, PlayerPOVComponent.getComponentType());
         if (pPOV != null)
-            store.removeComponent(ref, PlayerPOVComponent.getComponentType());
+            CameraInitializer.deletePOV(playerRef);
         else
             commandContext.sendMessage(Message.raw("You do not have any custom POV applied"));
     }

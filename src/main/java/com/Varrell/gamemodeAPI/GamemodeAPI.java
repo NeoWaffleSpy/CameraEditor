@@ -1,7 +1,6 @@
 package com.Varrell.gamemodeAPI;
 
 import com.Varrell.gamemodeAPI.Camera.CameraInitializer;
-import com.Varrell.gamemodeAPI.Camera.CameraTemplates;
 import com.Varrell.gamemodeAPI.Commands.Camera.CameraCommand;
 import com.Varrell.gamemodeAPI.Commands.CameraGroup.CameraGroupCommand;
 import com.Varrell.gamemodeAPI.Component.Data.PlayerPOVComponent;
@@ -29,7 +28,6 @@ public class GamemodeAPI extends JavaPlugin {
         super(init);
         instance = this;
         LOGGER.atInfo().log("Hello from %s version %s", this.getName(), this.getManifest().getVersion().toString());
-        CameraTemplates.init();
     }
 
     @Override

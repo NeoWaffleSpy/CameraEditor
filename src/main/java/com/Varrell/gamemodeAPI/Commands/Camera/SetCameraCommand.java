@@ -36,7 +36,7 @@ public class SetCameraCommand extends AbstractPlayerCommand {
         }
         PlayerPOVComponent pPOV = store.getComponent(ref, PlayerPOVComponent.getComponentType());
         if (pPOV != null)
-            store.removeComponent(ref, PlayerPOVComponent.getComponentType());
+            CameraInitializer.deletePOV(playerRef);
         if (!cam.isActive) {
             commandContext.sendMessage(Message.raw("The " + name + " POV is disabled"));
             return;

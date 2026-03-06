@@ -1,6 +1,5 @@
 package com.Varrell.gamemodeAPI.Commands.Camera;
 
-import com.Varrell.gamemodeAPI.Camera.CameraInitializer;
 import com.Varrell.gamemodeAPI.Component.Data.PlayerPOVComponent;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
