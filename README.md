@@ -1,4 +1,4 @@
-# <font color="cyan">Gamemode API</font>
+# <font color="cyan">Camera Editor</font>
 
 This is a basic API to create new Cameras with custom mouse controle and interactions.
 This is still a work in progress.
